@@ -1,6 +1,6 @@
 # LNSTemplateChooser
 
-A creation of the document template chooser for use with UIDocumentBrowserViewController-based applciations.
+A document template chooser for use with UIDocumentBrowserViewController-based applciations that mimics the appearance of Apple's iWork apps.
 
 ## iWork as a Starting Point
 
