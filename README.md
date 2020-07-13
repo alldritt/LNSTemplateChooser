@@ -2,6 +2,8 @@
 
 A document template chooser for use with UIDocumentBrowserViewController-based applciations that mimics the appearance of Apple's iWork apps.
 
+__NOTE__: This code depends on APIs available in iOS 13 and later.
+
 ## iWork as a Starting Point
 
 Apple's iOS iWork (Pages, Numbers &amp; Keynote) apps (circa iOS 13) have quite complex template choosers because of the wide range of templates they offer.  The initial template view is a "grouped" arragement of templates targetting different tasks.  Each group has a Show All action which takes you to a simpler view displaying the templates available for a particular group.
@@ -26,7 +28,7 @@ You can look at the [`ViewController.swift`](https://github.com/alldritt/LNSTemp
 
 ### Integrating with UIDocumentBrowserViewController
 
-My goal is to easily integrate a template chooser into a iOS UIDocumentBrowserViewController-based application.  Here's an example of how to use LNSSimpleTemplateChooser within a UIDocumentBrowserViewController-based application.  Add this code to the class within your app that implements the UIDocumentBrowserViewControllerDelegate protocol:
+My goal is to easily integrate a template chooser into a iOS UIDocumentBrowserViewController-based application.  Here's an example of how to use LNSSimpleTemplateChooser within a [UIDocumentBrowserViewController](https://developer.apple.com/documentation/uikit/uidocumentbrowserviewcontroller)-based application.  Add this code to the class within your app that implements the [UIDocumentBrowserViewControllerDelegate](https://developer.apple.com/documentation/uikit/uidocumentbrowserviewcontrollerdelegate) protocol:
 
 ```
     // MARK: UIDocumentBrowserViewControllerDelegate
