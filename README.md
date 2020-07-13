@@ -1,10 +1,10 @@
 # LNSTemplateChooser
 
-A recreation of the document template chooser found in Apple's iWork apps (Pages, Numbers &amp; Keynote) in iOS.
+A creation of the document template chooser for use with UIDocumentBrowserViewController-based applciations.
 
 ## iWork as a Starting Point
 
-Apple's iOS iWork apps (circa iOS 13) have quite complex template choosers because of the wide range of templates they offer.  The initial template view is a "grouped" arragement of templates targetting different tasks.  Each group has a Show All action which takes you to a simpler view displaying the templates available for a particular group.
+Apple's iOS iWork (Pages, Numbers &amp; Keynote) apps (circa iOS 13) have quite complex template choosers because of the wide range of templates they offer.  The initial template view is a "grouped" arragement of templates targetting different tasks.  Each group has a Show All action which takes you to a simpler view displaying the templates available for a particular group.
 
 ![iWOrk Template Chooser](Assets/iWorkTemplateChooser.png)
 
@@ -65,7 +65,7 @@ My goal is to easily integrate a template chooser into a iOS UIDocumentBrowserVi
     }
 ```
 
-__NOTE__: This code depends on the `LNSBArButtonItem.swift` file found in the example application.
+__NOTE__: This code depends on the [`LNSBArButtonItem.swift`](https://github.com/alldritt/LNSTemplateChooser/blob/master/Example/LNSBarButtonItem.swift) (for `LNSBarButtonItem`) and [`LNSUIKitExtras.swift`](https://github.com/alldritt/LNSTemplateChooser/blob/master/Example/LNSUIKitExtras.swift) (for `presentModalFullScreen`) files found in the Example application.
 
 ## Phase II
 
