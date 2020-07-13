@@ -18,7 +18,7 @@ Here's where I am so far.
 
 ### Installation
 
-Copy the contents of the `LNSTemplateChooser` folder to your Xcode project.  
+Copy the contents of the [`LNSTemplateChooser`](https://github.com/alldritt/LNSTemplateChooser/tree/master/LNSTemplateCooser) folder to your Xcode project.  
 
 ### Usage
 
@@ -65,7 +65,7 @@ My goal is to easily integrate a template chooser into a iOS UIDocumentBrowserVi
     }
 ```
 
-__NOTE__: This code depends on the [`LNSBArButtonItem.swift`](https://github.com/alldritt/LNSTemplateChooser/blob/master/Example/LNSBarButtonItem.swift) (for `LNSBarButtonItem`) and [`LNSUIKitExtras.swift`](https://github.com/alldritt/LNSTemplateChooser/blob/master/Example/LNSUIKitExtras.swift) (for `presentModalFullScreen`) files found in the Example application.
+__NOTE__: This code depends on the [`LNSBarButtonItem.swift`](https://github.com/alldritt/LNSTemplateChooser/blob/master/Example/LNSBarButtonItem.swift) (for `LNSBarButtonItem`) and [`LNSUIKitExtras.swift`](https://github.com/alldritt/LNSTemplateChooser/blob/master/Example/LNSUIKitExtras.swift) (for `presentModalFullScreen`) files found in the Example application.
 
 ## Phase II
 
