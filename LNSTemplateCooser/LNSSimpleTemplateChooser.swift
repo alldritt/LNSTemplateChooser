@@ -44,7 +44,7 @@ class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UI
         collectionView.tintColor = navigationController?.navigationBar.tintColor ?? UIColor.blue
         view = collectionView
 
-        navigationItem.title = "Template Chooser"
+        navigationItem.title = "Templates"
     }
     
     func clearOpeningIndication() {

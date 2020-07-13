@@ -14,42 +14,43 @@
 		A5644D4124BB9B3000888209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5644D3F24BB9B3000888209 /* LaunchScreen.storyboard */; };
 		A5644D4F24BB9BEA00888209 /* LNSTemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5644D4924BB9BEA00888209 /* LNSTemplateCell.swift */; };
 		A5644D5324BB9BEA00888209 /* LNSTemplateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5644D4D24BB9BEA00888209 /* LNSTemplateCell.xib */; };
-		A5644D6224BB9FC800888209 /* Template 2.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D5A24BB9F6F00888209 /* Template 2.swift */; };
-		A5644D6324BB9FC800888209 /* Template 3.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D5824BB9F6F00888209 /* Template 3.swift */; };
-		A5644D6424BB9FC800888209 /* Template 4.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D5B24BB9F6F00888209 /* Template 4.swift */; };
+		A5644D6224BB9FC800888209 /* Template 2.swift in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D5A24BB9F6F00888209 /* Template 2.swift */; };
+		A5644D6324BB9FC800888209 /* Template 3.swift in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D5824BB9F6F00888209 /* Template 3.swift */; };
+		A5644D6424BB9FC800888209 /* Template 4.swift in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D5B24BB9F6F00888209 /* Template 4.swift */; };
 		A5644D6824BBC6FA00888209 /* LNSTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5644D6724BBC6FA00888209 /* LNSTemplate.swift */; };
 		A5644D6A24BBC72800888209 /* LNSSimpleTemplateChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5644D6924BBC72800888209 /* LNSSimpleTemplateChooser.swift */; };
 		A5644D6C24BBCA5D00888209 /* LNSUIKitExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5644D6B24BBCA5D00888209 /* LNSUIKitExtras.swift */; };
-		A5644D8224BBE54300888209 /* Template 1.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D5924BB9F6F00888209 /* Template 1.swift */; };
-		A5644D8324BBE54300888209 /* Blank.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D7B24BBE46A00888209 /* Blank.md */; };
-		A5644D8424BBE54300888209 /* Checklist.md in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D7C24BBE48400888209 /* Checklist.md */; };
+		A5644D8224BBE54300888209 /* Template 1.swift in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D5924BB9F6F00888209 /* Template 1.swift */; };
+		A5644D8324BBE54300888209 /* Blank.md in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D7B24BBE46A00888209 /* Blank.md */; };
+		A5644D8424BBE54300888209 /* Checklist.md in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D7C24BBE48400888209 /* Checklist.md */; };
 		A5644D8624BBE73300888209 /* LNSBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5644D8524BBE73300888209 /* LNSBarButtonItem.swift */; };
-		A5644D8A24BBEC3900888209 /* Clouds.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D8924BBEC0F00888209 /* Clouds.jpeg */; };
-		A5644D8B24BBEC3900888209 /* Evening Sky.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D8724BBEC0F00888209 /* Evening Sky.jpeg */; };
-		A5644D8C24BBEC3900888209 /* Sunset.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D8824BBEC0F00888209 /* Sunset.jpeg */; };
-		A5644D9024BBF15900888209 /* Tennis.jpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D8D24BBF09F00888209 /* Tennis.jpeg */; };
-		A5644D9124BBF15900888209 /* StarTrek.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5644D8F24BBF14900888209 /* StarTrek.png */; };
+		A5644D8A24BBEC3900888209 /* Clouds.jpeg in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D8924BBEC0F00888209 /* Clouds.jpeg */; };
+		A5644D8B24BBEC3900888209 /* Evening Sky.jpeg in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D8724BBEC0F00888209 /* Evening Sky.jpeg */; };
+		A5644D8C24BBEC3900888209 /* Sunset.jpeg in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D8824BBEC0F00888209 /* Sunset.jpeg */; };
+		A5644D9024BBF15900888209 /* Tennis.jpeg in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D8D24BBF09F00888209 /* Tennis.jpeg */; };
+		A5644D9124BBF15900888209 /* StarTrek.png in Copy Templates */ = {isa = PBXBuildFile; fileRef = A5644D8F24BBF14900888209 /* StarTrek.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A5644D6024BB9FBA00888209 /* CopyFiles */ = {
+		A5644D6024BB9FBA00888209 /* Copy Templates */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = Templates;
 			dstSubfolderSpec = 7;
 			files = (
-				A5644D9024BBF15900888209 /* Tennis.jpeg in CopyFiles */,
-				A5644D9124BBF15900888209 /* StarTrek.png in CopyFiles */,
-				A5644D8A24BBEC3900888209 /* Clouds.jpeg in CopyFiles */,
-				A5644D8B24BBEC3900888209 /* Evening Sky.jpeg in CopyFiles */,
-				A5644D8C24BBEC3900888209 /* Sunset.jpeg in CopyFiles */,
-				A5644D8224BBE54300888209 /* Template 1.swift in CopyFiles */,
-				A5644D8324BBE54300888209 /* Blank.md in CopyFiles */,
-				A5644D8424BBE54300888209 /* Checklist.md in CopyFiles */,
-				A5644D6224BB9FC800888209 /* Template 2.swift in CopyFiles */,
-				A5644D6324BB9FC800888209 /* Template 3.swift in CopyFiles */,
-				A5644D6424BB9FC800888209 /* Template 4.swift in CopyFiles */,
+				A5644D9024BBF15900888209 /* Tennis.jpeg in Copy Templates */,
+				A5644D9124BBF15900888209 /* StarTrek.png in Copy Templates */,
+				A5644D8A24BBEC3900888209 /* Clouds.jpeg in Copy Templates */,
+				A5644D8B24BBEC3900888209 /* Evening Sky.jpeg in Copy Templates */,
+				A5644D8C24BBEC3900888209 /* Sunset.jpeg in Copy Templates */,
+				A5644D8224BBE54300888209 /* Template 1.swift in Copy Templates */,
+				A5644D8324BBE54300888209 /* Blank.md in Copy Templates */,
+				A5644D8424BBE54300888209 /* Checklist.md in Copy Templates */,
+				A5644D6224BB9FC800888209 /* Template 2.swift in Copy Templates */,
+				A5644D6324BB9FC800888209 /* Template 3.swift in Copy Templates */,
+				A5644D6424BB9FC800888209 /* Template 4.swift in Copy Templates */,
 			);
+			name = "Copy Templates";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -164,7 +165,7 @@
 				A5644D2D24BB9B2F00888209 /* Sources */,
 				A5644D2E24BB9B2F00888209 /* Frameworks */,
 				A5644D2F24BB9B2F00888209 /* Resources */,
-				A5644D6024BB9FBA00888209 /* CopyFiles */,
+				A5644D6024BB9FBA00888209 /* Copy Templates */,
 			);
 			buildRules = (
 			);
