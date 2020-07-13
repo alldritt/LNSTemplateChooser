@@ -4,13 +4,15 @@ A recreation of the document template chooser found in Apple's iWork apps (Pages
 
 ## iWork as a Starting Point
 
-Apple's iOS iWork apps have quite complex template choosers because of the wide range of templates they offer.  The initial template view is a "grouped" arragement of templates targetting different tasks.  Each group has a Show All action which takes you to a simpler view displaying the templates available for a particular group.
+Apple's iOS iWork apps (circa iOS 13) have quite complex template choosers because of the wide range of templates they offer.  The initial template view is a "grouped" arragement of templates targetting different tasks.  Each group has a Show All action which takes you to a simpler view displaying the templates available for a particular group.
 
 ![iWOrk Template Chooser](Assets/iWorkTemplateChooser.png)
 
 ## Phase I
 
 I've begin with the simpler "Show All" template chooser view.  This is a farily simple UICollectionView displaying a thumbnail and title for each template.  I've focised on mimicing the iWork look and functionality as much as I can.
+
+My goal is to create a view controller you can easily integrate into a iOS document-based application to create new documents.
 
 Here's where I am so far.
 
