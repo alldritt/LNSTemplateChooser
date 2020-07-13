@@ -80,6 +80,8 @@
 		A5644D8924BBEC0F00888209 /* Clouds.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clouds.jpeg; sourceTree = "<group>"; };
 		A5644D8D24BBF09F00888209 /* Tennis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tennis.jpeg; sourceTree = "<group>"; };
 		A5644D8F24BBF14900888209 /* StarTrek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarTrek.png; sourceTree = "<group>"; };
+		A5644D9F24BD1E4B00888209 /* LNSTemplateGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNSTemplateGroup.swift; sourceTree = "<group>"; };
+		A5644DA024BD1E4B00888209 /* LNSGroupedTemplateChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LNSGroupedTemplateChooser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				A5644D3324BB9B2F00888209 /* Example */,
 				A5644D5524BB9F1600888209 /* Templates */,
+				A5644D9E24BD1E3400888209 /* LNSGroupedTemplateChooser */,
 				A5644D4824BB9BEA00888209 /* LNSTemplateCooser */,
 				A5644D3224BB9B2F00888209 /* Products */,
 			);
@@ -153,6 +156,15 @@
 				A5644D7C24BBE48400888209 /* Checklist.md */,
 			);
 			path = Templates;
+			sourceTree = "<group>";
+		};
+		A5644D9E24BD1E3400888209 /* LNSGroupedTemplateChooser */ = {
+			isa = PBXGroup;
+			children = (
+				A5644DA024BD1E4B00888209 /* LNSGroupedTemplateChooser.swift */,
+				A5644D9F24BD1E4B00888209 /* LNSTemplateGroup.swift */,
+			);
+			path = LNSGroupedTemplateChooser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
