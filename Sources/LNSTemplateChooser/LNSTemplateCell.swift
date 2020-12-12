@@ -33,16 +33,16 @@ protocol LNSTemplateCellChooser: class {
 }
 
 
-class LNSTemplateCell: UICollectionViewCell {
+open class LNSTemplateCell: UICollectionViewCell {
 
-    @IBOutlet weak private var nameLabel: UILabel!
-    @IBOutlet weak private var previewImage: UIImageView!
-    @IBOutlet weak private var activityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
+    @IBOutlet weak open var nameLabel: UILabel!
+    @IBOutlet weak open var previewImage: UIImageView!
+    @IBOutlet weak open var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak open var heightConstraint: NSLayoutConstraint!
     
     weak var templateChooser: LNSTemplateCellChooser?
     
-    override var isSelected: Bool {
+    public override var isSelected: Bool {
         didSet {
             guard isSelected != oldValue else { return }
 
@@ -56,7 +56,7 @@ class LNSTemplateCell: UICollectionViewCell {
             }
         }
     }
-    override var isHighlighted: Bool {
+    public override var isHighlighted: Bool {
         didSet {
             configureCellAdornments()
         }
@@ -78,13 +78,13 @@ class LNSTemplateCell: UICollectionViewCell {
         previewImage.superview?.layer.shadowOffset = isSelected ? CGSize(width: 0, height: 0) : CGSize(width: 0.75, height: 1.5)
     }
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
 
         configureCellAdornments()
     }
         
-    override func prepareForReuse() {
+    public override func prepareForReuse() {
         isSelected = false
         isHighlighted = false
         previewImage.image = nil

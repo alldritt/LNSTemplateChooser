@@ -40,7 +40,7 @@ public class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSou
         collectionView.delegate = self
         collectionView.allowsSelection = true
         collectionView.allowsMultipleSelection = false
-        collectionView.register(UINib(nibName: "LNSTemplateCell", bundle: nil), forCellWithReuseIdentifier: "LNSTemplateCell")
+        collectionView.register(UINib(nibName: "LNSTemplateCell", bundle: .module), forCellWithReuseIdentifier: "LNSTemplateCell")
         collectionView.tintColor = navigationController?.navigationBar.tintColor ?? UIColor.blue
         view = collectionView
 

@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -7,11 +7,16 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library( name: "LNSTemplateChooser", targets: ["LNSTemplateChooser"])
+        .library(
+            name: "LNSTemplateChooser",
+            targets: ["LNSTemplateChooser"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "LNSTemplateChooser", dependencies: [], path: "LNSTemplateChooser")
+        .target(
+            name: "LNSTemplateChooser",
+            dependencies: [],
+            resources: [.process("LNSTemplateCell.xib")]),
     ],
     swiftLanguageVersions: [.v5]
 )
