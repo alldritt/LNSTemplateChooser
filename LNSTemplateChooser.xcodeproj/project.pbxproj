@@ -98,7 +98,7 @@
 			children = (
 				A5644D3324BB9B2F00888209 /* Example */,
 				A5644D5524BB9F1600888209 /* Templates */,
-				A5644D4824BB9BEA00888209 /* LNSTemplateCooser */,
+				A5644D4824BB9BEA00888209 /* LNSTemplateChooser */,
 				A5644D3224BB9B2F00888209 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		A5644D4824BB9BEA00888209 /* LNSTemplateCooser */ = {
+		A5644D4824BB9BEA00888209 /* LNSTemplateChooser */ = {
 			isa = PBXGroup;
 			children = (
 				A5644D6724BBC6FA00888209 /* LNSTemplate.swift */,
@@ -134,7 +134,7 @@
 				A5644D4924BB9BEA00888209 /* LNSTemplateCell.swift */,
 				A5644D6924BBC72800888209 /* LNSSimpleTemplateChooser.swift */,
 			);
-			path = LNSTemplateCooser;
+			path = LNSTemplateChooser;
 			sourceTree = "<group>";
 		};
 		A5644D5524BB9F1600888209 /* Templates */ = {
