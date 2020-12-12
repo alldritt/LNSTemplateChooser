@@ -9,11 +9,11 @@
 import Foundation
 
 
-class LNSTemplate {
-    let fileURL: URL
-    let name: String
+public class LNSTemplate {
+    public let fileURL: URL
+    public let name: String
     
-    init(url fileURL: URL, name: String) {
+    public init(url fileURL: URL, name: String) {
         self.fileURL = fileURL
         self.name = name
     }

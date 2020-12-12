@@ -9,17 +9,17 @@
 import UIKit
 
 
-class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, LNSTemplateCellChooser {
+public class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, LNSTemplateCellChooser {
 
-    var templates: [LNSTemplate] = [] {
+    public var templates: [LNSTemplate] = [] {
         didSet {
             if isViewLoaded {
                 collectionView.reloadData()
             }
         }
     }
-    var completion: ((_ template: LNSTemplate) -> Void)?
-    var thumbnailSize = CGFloat(220) {
+    public var completion: ((_ template: LNSTemplate) -> Void)?
+    public var thumbnailSize = CGFloat(220) {
         didSet {
             if isViewLoaded {
                 collectionView.reloadData()
@@ -29,7 +29,7 @@ class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UI
 
     private (set) var collectionView: UICollectionView!
     
-    override func loadView() {
+    override public func loadView() {
         let flowLayout = UICollectionViewFlowLayout()
 
         flowLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
@@ -47,7 +47,7 @@ class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UI
         navigationItem.title = "Choose a Template"
     }
     
-    func clearOpeningIndication() {
+    public func clearOpeningIndication() {
         if let selectedIndexPath = collectionView.indexPathsForSelectedItems?.first {
             collectionView.deselectItem(at: selectedIndexPath, animated: true)            
         }
@@ -55,15 +55,15 @@ class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UI
     
     //  MARK: - UICollectionViewDataSource
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return templates.count
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let template = templates[indexPath.row]
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "LNSTemplateCell", for: indexPath) as! LNSTemplateCell
         
@@ -74,7 +74,7 @@ class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UI
     
     //  MARK: - UICollectionViewDelete
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let template = templates[indexPath.row]
 
         completion?(template)
@@ -82,23 +82,23 @@ class LNSSimpleTemplateChooser: UIViewController, UICollectionViewDataSource, UI
     
     //  MARK: - UICollectionViewDelegateFlowLayout
         
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
     }
 
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 10
     }
 
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 12
     }
 
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         return CGSize.zero
     }
 
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
         return CGSize.zero
     }
 
