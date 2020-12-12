@@ -80,6 +80,7 @@
 		A5644D8924BBEC0F00888209 /* Clouds.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clouds.jpeg; sourceTree = "<group>"; };
 		A5644D8D24BBF09F00888209 /* Tennis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tennis.jpeg; sourceTree = "<group>"; };
 		A5644D8F24BBF14900888209 /* StarTrek.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StarTrek.png; sourceTree = "<group>"; };
+		A5F5CA80258445C5007BE147 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		A5644D2824BB9B2F00888209 = {
 			isa = PBXGroup;
 			children = (
+				A5F5CA80258445C5007BE147 /* Package.swift */,
 				A5644D3324BB9B2F00888209 /* Example */,
 				A5644D5524BB9F1600888209 /* Templates */,
 				A5644D4824BB9BEA00888209 /* LNSTemplateChooser */,
